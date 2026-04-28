@@ -1,0 +1,97 @@
+AI Resume Analyzer - Run / Stop Guide
+
+Project folder:
+D:\resume project
+
+1. Install dependencies
+
+If you are using the default Python command:
+pip install -r requirements.txt
+
+If your machine uses the explicit Python 3.12 path for this project:
+"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" -m pip install -r requirements.txt
+
+
+2. Start the app
+
+Option A: Start with default python
+python app.py
+
+Option B: Start with explicit Python 3.12
+"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" app.py
+
+Then open:
+http://127.0.0.1:5000/
+
+
+3. Start on a custom port
+
+PowerShell:
+$env:FLASK_HOST="127.0.0.1"
+$env:FLASK_PORT="5001"
+$env:FLASK_DEBUG="false"
+python app.py
+
+Or with explicit Python 3.12:
+$env:FLASK_HOST="127.0.0.1"
+$env:FLASK_PORT="5001"
+$env:FLASK_DEBUG="false"
+"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" app.py
+
+
+4. Stop the app if running in the current terminal
+
+Press:
+Ctrl + C
+
+
+5. Stop the app if running in the background
+
+If you know the PID:
+Stop-Process -Id 16172 -Force
+
+You can also find the PID using port 5000:
+netstat -ano | findstr :5000
+
+Then stop that PID:
+Stop-Process -Id <PID> -Force
+
+
+6. Quick restart
+
+Stop old process first, then run again:
+Stop-Process -Id <PID> -Force
+python app.py
+
+
+7. If python app.py does not work
+
+This machine may have multiple Python versions installed.
+If the default python command cannot find Flask, PyPDF2, or scikit-learn, use:
+"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" app.py
+
+
+8. What files matter
+
+Main backend:
+app.py
+
+Frontend template:
+templates\index.html
+
+Styles:
+static\css\style.css
+
+Frontend logic:
+static\js\app.js
+
+
+9. Notes
+
+- Closing Codex or VS Code does not stop a background Python process.
+- A background server keeps running until you stop the process manually.
+- Uploaded PDFs are processed temporarily and deleted after analysis.
+
+
+
+taskkill /F /IM python.exe

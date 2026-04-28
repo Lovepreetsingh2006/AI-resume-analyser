@@ -1,0 +1,90 @@
+AI Resume Analyzer Report
+Generated: 2026-04-27 18:24:11
+Source File: resume.pdf
+Target Role: Data Scientist
+
+Overall Score: 59/100
+Score Breakdown:
+- Skills Match: 20/35
+- Completeness: 25/25
+- Keywords: 13/20
+- Role Similarity: 5/20
+- Penalty: -4
+
+Role Similarity Model:
+- Method: TF-IDF semantic similarity
+- Similarity: 27%
+
+Custom Skills:
+- Airflow
+- A/B Testing
+
+Custom Keywords:
+- feature engineering
+- experimentation
+
+Summary:
+This resume scores 59/100 for the Data Scientist role, with 8 role-aligned skills identified, all key sections are present, and a role-fit similarity of 27%.
+
+Matching Skills:
+- Python
+- Machine Learning
+- Pandas
+- NumPy
+- SQL
+- Scikit-learn
+- Airflow
+- A/B Testing
+
+Missing Skills:
+- Deep Learning
+- Statistics
+- Data Visualization
+- TensorFlow
+- NLP
+- Power BI
+
+Skills Found:
+- A/B Testing
+- AWS
+- Airflow
+- ETL
+- Machine Learning
+- NumPy
+- Pandas
+- Python
+- SQL
+- Scikit-learn
+- Testing
+
+Keyword Matches:
+- Python
+- Machine Learning
+- Pandas
+- NumPy
+- SQL
+- Scikit-learn
+- feature engineering
+- experimentation
+
+Missing Keywords:
+- Deep Learning
+- Statistics
+- Data Visualization
+- TensorFlow
+- NLP
+- Power BI
+
+Education:
+- B.Tech in Computer Science
+
+Experience:
+- Built predictive models and deployed ETL workflows
+
+Missing Sections:
+- None
+
+Suggestions:
+- Add more measurable achievements and context to make the resume feel complete.
+- Tailor your resume summary and project bullets more closely to the target role language.
+- Try incorporating important keywords such as Deep Learning, Statistics, Data Visualization, TensorFlow where they accurately reflect your work.

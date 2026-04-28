@@ -1,0 +1,92 @@
+AI Resume Analyzer Report
+Generated: 2026-04-27 18:58:09
+Source File: saurabhgupta.pdf
+Target Role: Full Stack Developer
+Category: Engineering
+Market Signal: Very strong demand
+Outlook Score: 90/100
+
+Overall Score: 20/100
+Score Breakdown:
+- Skills Match: 8/35
+- Completeness: 15/25
+- Keywords: 2/20
+- Role Similarity: 0/20
+- Penalty: -5
+
+Role Similarity Model:
+- Method: TF-IDF semantic similarity
+- Similarity: 1%
+
+Custom Skills:
+- None
+
+Custom Keywords:
+- None
+
+Matched Core Skills:
+- JavaScript
+- SQL
+
+Missing Core Skills:
+- HTML
+- CSS
+- React
+- Node.js
+- REST API
+- Git
+
+Matched Optional Skills:
+- Python
+
+Missing Optional Skills:
+- Docker
+- MongoDB
+- CI/CD
+- AWS
+
+Keyword Matches:
+- None
+
+Missing Keywords:
+- end-to-end delivery
+- product engineering
+- api integration
+- database modeling
+- deployment
+- debugging
+- React
+- Node.js
+- Docker
+- MongoDB
+
+Related Tools Found:
+- None
+
+Summary:
+This resume scores 20/100 for the Full Stack Developer role, matches 2 core dataset skills, missing certifications, and shows a role-fit similarity of 1%.
+
+Education:
+- Senior Year B.Tech Student +91 9911592327
+- Indian Institute of Technology Delhi http://www.cse.iitd.ernet.in/ ~cs1070185
+- Year Degree Institute Percentage/CGPA
+- 2007- BTech in Computer Science Indian Institute of Technology CGPA = 9.938/10
+- Present and Engineering Delhi Institute Rank 1
+
+Experience:
+- Implemented color quantization, dithering, image segmentation and edge enhancement (by edge linking
+- undocumented technical know how. Designed intuitive user interfaces and work-
+- This project was based on a molecule based inter-cell communication simulator designed by our professor.
+- We designed and analyzed robust communication protocols for inter cell molecular communication among
+- antibody cells in a loss full unreliable medium. Also designed combat strategies against infection cells.
+- Research Intern atMicrosoft Research India, Bangalore in the Vision Graphics and Visualization
+
+Missing Sections:
+- Certifications
+
+Suggestions:
+- Strengthen role fit by adding experience tied to core skills like HTML, CSS, React, Node.js.
+- Consider adding adjacent tools or technologies such as Docker, MongoDB, CI/CD if you have used them.
+- Mention relevant certifications if you have them to strengthen credibility.
+- Tailor your summary and project bullets more closely to the target tech role language.
+- Mirror important role keywords such as end-to-end delivery, product engineering, api integration, database modeling where they genuinely match your experience.

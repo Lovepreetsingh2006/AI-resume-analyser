@@ -1,0 +1,86 @@
+AI Resume Analyzer Report
+Generated: 2026-04-27 18:55:03
+Source File: resume.pdf
+Target Role: DevOps Engineer
+Category: Cloud & Platform
+Market Signal: Very strong demand
+Outlook Score: 91/100
+
+Overall Score: 53/100
+Score Breakdown:
+- Skills Match: 22/35
+- Completeness: 25/25
+- Keywords: 9/20
+- Role Similarity: 4/20
+- Penalty: -7
+
+Role Similarity Model:
+- Method: TF-IDF semantic similarity
+- Similarity: 18%
+
+Custom Skills:
+- GitHub Actions
+
+Custom Keywords:
+- site reliability
+- deployment automation
+
+Matched Core Skills:
+- Linux
+- Docker
+- Kubernetes
+- AWS
+- CI/CD
+- Terraform
+- Python
+- Monitoring
+
+Missing Core Skills:
+- GitHub Actions
+
+Matched Optional Skills:
+- None
+
+Missing Optional Skills:
+- Azure
+- GCP
+- Bash
+- Jenkins
+- GitHub Actions
+
+Keyword Matches:
+- infrastructure as code
+- incident response
+- observability
+- Terraform
+
+Missing Keywords:
+- deployment automation
+- site reliability
+- cloud operations
+- Prometheus
+- Grafana
+- Jenkins
+
+Related Tools Found:
+- Terraform
+
+Summary:
+This resume scores 53/100 for the DevOps Engineer role, matches 8 core dataset skills, all key sections are present, and shows a role-fit similarity of 18%.
+
+Education:
+- B.Tech in Information Technology
+
+Experience:
+- Automated deployments and built infrastructure as code pipelines
+
+Missing Sections:
+- None
+
+Suggestions:
+- Strengthen role fit by adding experience tied to core skills like GitHub Actions.
+- Consider adding adjacent tools or technologies such as Azure, GCP, Bash if you have used them.
+- Add more measurable achievements and context to make the resume feel complete.
+- Tailor your summary and project bullets more closely to the target tech role language.
+- Mirror important role keywords such as deployment automation, site reliability, cloud operations, Prometheus where they genuinely match your experience.
+- You added custom keywords. Reuse those exact phrases in results-driven bullet points when relevant.

@@ -1,0 +1,372 @@
+{
+  "Software Engineer": {
+    "category": "Engineering",
+    "market_signal": "High demand",
+    "outlook_score": 88,
+    "profile": "software engineer scalable systems clean code backend services application architecture testing debugging collaboration version control performance api development",
+    "must_have_skills": [
+      "Python",
+      "Java",
+      "Data Structures",
+      "Algorithms",
+      "Git",
+      "SQL",
+      "OOP",
+      "Testing"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "System Design",
+      "REST API",
+      "CI/CD",
+      "Linux"
+    ],
+    "keywords": [
+      "scalability",
+      "microservices",
+      "code quality",
+      "debugging",
+      "backend services",
+      "version control"
+    ],
+    "related_tools": [
+      "Docker",
+      "GitHub Actions",
+      "Postman",
+      "Linux"
+    ]
+  },
+  "Frontend Developer": {
+    "category": "Engineering",
+    "market_signal": "High demand",
+    "outlook_score": 84,
+    "profile": "frontend developer responsive interfaces design systems accessibility performance component architecture javascript typescript browser rendering user experience",
+    "must_have_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Git",
+      "Responsive Design",
+      "Accessibility"
+    ],
+    "nice_to_have_skills": [
+      "Next.js",
+      "Tailwind CSS",
+      "Testing",
+      "REST API",
+      "Figma"
+    ],
+    "keywords": [
+      "component library",
+      "design system",
+      "web performance",
+      "responsive ui",
+      "cross-browser",
+      "accessibility"
+    ],
+    "related_tools": [
+      "Next.js",
+      "Tailwind CSS",
+      "Jest",
+      "Cypress"
+    ]
+  },
+  "Backend Developer": {
+    "category": "Engineering",
+    "market_signal": "High demand",
+    "outlook_score": 86,
+    "profile": "backend developer server side systems api design databases authentication scalability cloud services distributed systems observability",
+    "must_have_skills": [
+      "Python",
+      "Node.js",
+      "SQL",
+      "REST API",
+      "Git",
+      "Database Design",
+      "Authentication",
+      "Testing"
+    ],
+    "nice_to_have_skills": [
+      "Docker",
+      "Redis",
+      "GraphQL",
+      "AWS",
+      "CI/CD"
+    ],
+    "keywords": [
+      "distributed systems",
+      "api security",
+      "performance optimization",
+      "database schema",
+      "observability",
+      "backend architecture"
+    ],
+    "related_tools": [
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Postman"
+    ]
+  },
+  "Full Stack Developer": {
+    "category": "Engineering",
+    "market_signal": "Very strong demand",
+    "outlook_score": 90,
+    "profile": "full stack developer frontend backend apis databases deployment product engineering responsive interfaces cloud services debugging",
+    "must_have_skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "SQL",
+      "REST API",
+      "Git"
+    ],
+    "nice_to_have_skills": [
+      "Python",
+      "Docker",
+      "MongoDB",
+      "CI/CD",
+      "AWS"
+    ],
+    "keywords": [
+      "end-to-end delivery",
+      "product engineering",
+      "api integration",
+      "database modeling",
+      "deployment",
+      "debugging"
+    ],
+    "related_tools": [
+      "React",
+      "Node.js",
+      "Docker",
+      "MongoDB"
+    ]
+  },
+  "Data Scientist": {
+    "category": "Data & AI",
+    "market_signal": "Very strong demand",
+    "outlook_score": 92,
+    "profile": "data scientist experimentation statistical modeling machine learning feature engineering python notebooks dashboards predictive analytics stakeholder communication",
+    "must_have_skills": [
+      "Python",
+      "Machine Learning",
+      "Pandas",
+      "NumPy",
+      "Statistics",
+      "SQL",
+      "Scikit-learn",
+      "Data Visualization"
+    ],
+    "nice_to_have_skills": [
+      "Deep Learning",
+      "TensorFlow",
+      "PyTorch",
+      "A/B Testing",
+      "Feature Engineering"
+    ],
+    "keywords": [
+      "experimentation",
+      "predictive modeling",
+      "feature engineering",
+      "statistical analysis",
+      "business insights",
+      "model evaluation"
+    ],
+    "related_tools": [
+      "Jupyter",
+      "Tableau",
+      "Power BI",
+      "MLflow"
+    ]
+  },
+  "Data Analyst": {
+    "category": "Data & AI",
+    "market_signal": "High demand",
+    "outlook_score": 83,
+    "profile": "data analyst reporting dashboards business intelligence sql spreadsheets analytics stakeholder communication metrics data cleaning",
+    "must_have_skills": [
+      "SQL",
+      "Excel",
+      "Data Analysis",
+      "Data Visualization",
+      "Power BI",
+      "Tableau",
+      "Statistics",
+      "Communication"
+    ],
+    "nice_to_have_skills": [
+      "Python",
+      "Pandas",
+      "ETL",
+      "A/B Testing",
+      "Data Warehousing"
+    ],
+    "keywords": [
+      "dashboarding",
+      "business intelligence",
+      "kpi tracking",
+      "reporting automation",
+      "data storytelling",
+      "insights"
+    ],
+    "related_tools": [
+      "Excel",
+      "Tableau",
+      "Power BI",
+      "SQL"
+    ]
+  },
+  "Machine Learning Engineer": {
+    "category": "Data & AI",
+    "market_signal": "Very strong demand",
+    "outlook_score": 93,
+    "profile": "machine learning engineer model deployment ml pipelines production systems feature stores cloud infrastructure experimentation monitoring",
+    "must_have_skills": [
+      "Python",
+      "Machine Learning",
+      "Scikit-learn",
+      "TensorFlow",
+      "PyTorch",
+      "SQL",
+      "Docker",
+      "MLOps"
+    ],
+    "nice_to_have_skills": [
+      "Kubernetes",
+      "AWS",
+      "Airflow",
+      "Feature Engineering",
+      "CI/CD"
+    ],
+    "keywords": [
+      "model serving",
+      "training pipelines",
+      "feature store",
+      "production ml",
+      "monitoring",
+      "deployment automation"
+    ],
+    "related_tools": [
+      "MLflow",
+      "Airflow",
+      "Docker",
+      "Kubernetes"
+    ]
+  },
+  "DevOps Engineer": {
+    "category": "Cloud & Platform",
+    "market_signal": "Very strong demand",
+    "outlook_score": 91,
+    "profile": "devops engineer automation infrastructure cloud reliability ci cd observability incident response deployment pipelines containers",
+    "must_have_skills": [
+      "Linux",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "CI/CD",
+      "Terraform",
+      "Python",
+      "Monitoring"
+    ],
+    "nice_to_have_skills": [
+      "Azure",
+      "GCP",
+      "Bash",
+      "Jenkins",
+      "GitHub Actions"
+    ],
+    "keywords": [
+      "infrastructure as code",
+      "deployment automation",
+      "site reliability",
+      "incident response",
+      "observability",
+      "cloud operations"
+    ],
+    "related_tools": [
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "Jenkins"
+    ]
+  },
+  "QA Engineer": {
+    "category": "Engineering",
+    "market_signal": "Steady demand",
+    "outlook_score": 76,
+    "profile": "qa engineer software quality testing automation defect tracking regression test plans collaboration release validation",
+    "must_have_skills": [
+      "Testing",
+      "Selenium",
+      "API Testing",
+      "Regression Testing",
+      "Bug Tracking",
+      "Git",
+      "SQL",
+      "Documentation"
+    ],
+    "nice_to_have_skills": [
+      "Cypress",
+      "Playwright",
+      "Python",
+      "CI/CD",
+      "Performance Testing"
+    ],
+    "keywords": [
+      "test automation",
+      "quality assurance",
+      "defect lifecycle",
+      "test cases",
+      "regression suite",
+      "release validation"
+    ],
+    "related_tools": [
+      "Selenium",
+      "Cypress",
+      "Postman",
+      "Jira"
+    ]
+  },
+  "Cybersecurity Analyst": {
+    "category": "Security",
+    "market_signal": "Very strong demand",
+    "outlook_score": 89,
+    "profile": "cybersecurity analyst threat detection incident response vulnerability management security monitoring identity access controls risk assessment",
+    "must_have_skills": [
+      "Network Security",
+      "Linux",
+      "SIEM",
+      "Incident Response",
+      "Risk Assessment",
+      "Identity and Access Management",
+      "Python",
+      "Security Monitoring"
+    ],
+    "nice_to_have_skills": [
+      "Splunk",
+      "AWS",
+      "Cloud Security",
+      "Compliance",
+      "Forensics"
+    ],
+    "keywords": [
+      "threat hunting",
+      "vulnerability management",
+      "security operations",
+      "log analysis",
+      "access control",
+      "security posture"
+    ],
+    "related_tools": [
+      "Splunk",
+      "Wireshark",
+      "SIEM",
+      "AWS"
+    ]
+  }
+}

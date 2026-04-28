@@ -1,0 +1,91 @@
+AI Resume Analyzer Report
+Generated: 2026-04-27 18:57:46
+Source File: saurabhgupta.pdf
+Target Role: Software Engineer
+Category: Engineering
+Market Signal: High demand
+Outlook Score: 88/100
+
+Overall Score: 33/100
+Score Breakdown:
+- Skills Match: 18/35
+- Completeness: 15/25
+- Keywords: 4/20
+- Role Similarity: 1/20
+- Penalty: -5
+
+Role Similarity Model:
+- Method: TF-IDF semantic similarity
+- Similarity: 3%
+
+Custom Skills:
+- None
+
+Custom Keywords:
+- None
+
+Matched Core Skills:
+- Python
+- Java
+- Data Structures
+- Algorithms
+- SQL
+
+Missing Core Skills:
+- Git
+- OOP
+- Testing
+
+Matched Optional Skills:
+- Linux
+
+Missing Optional Skills:
+- Docker
+- System Design
+- REST API
+- CI/CD
+
+Keyword Matches:
+- Linux
+
+Missing Keywords:
+- scalability
+- microservices
+- code quality
+- debugging
+- backend services
+- version control
+- Docker
+- GitHub Actions
+- Postman
+
+Related Tools Found:
+- Linux
+
+Summary:
+This resume scores 33/100 for the Software Engineer role, matches 5 core dataset skills, missing certifications, and shows a role-fit similarity of 3%.
+
+Education:
+- Senior Year B.Tech Student +91 9911592327
+- Indian Institute of Technology Delhi http://www.cse.iitd.ernet.in/ ~cs1070185
+- Year Degree Institute Percentage/CGPA
+- 2007- BTech in Computer Science Indian Institute of Technology CGPA = 9.938/10
+- Present and Engineering Delhi Institute Rank 1
+
+Experience:
+- Implemented color quantization, dithering, image segmentation and edge enhancement (by edge linking
+- undocumented technical know how. Designed intuitive user interfaces and work-
+- This project was based on a molecule based inter-cell communication simulator designed by our professor.
+- We designed and analyzed robust communication protocols for inter cell molecular communication among
+- antibody cells in a loss full unreliable medium. Also designed combat strategies against infection cells.
+- Research Intern atMicrosoft Research India, Bangalore in the Vision Graphics and Visualization
+
+Missing Sections:
+- Certifications
+
+Suggestions:
+- Strengthen role fit by adding experience tied to core skills like Git, OOP, Testing.
+- Consider adding adjacent tools or technologies such as Docker, System Design, REST API if you have used them.
+- Mention relevant certifications if you have them to strengthen credibility.
+- Tailor your summary and project bullets more closely to the target tech role language.
+- Mirror important role keywords such as scalability, microservices, code quality, debugging where they genuinely match your experience.

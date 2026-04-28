@@ -1,0 +1,69 @@
+AI Resume Analyzer Report
+Generated: 2026-04-27 18:15:24
+Source File: saurabhgupta.pdf
+Target Role: Software Engineer
+
+Overall Score: 38/100
+Score Breakdown:
+- Skills Match: 17/50
+- Completeness: 18/30
+- Keywords: 8/20
+- Penalty: -5
+
+Summary:
+This resume scores 38/100 for the Software Engineer role, with 4 role-aligned skills identified and missing certifications.
+
+Matching Skills:
+- Python
+- Java
+- Data Structures
+- Algorithms
+
+Missing Skills:
+- C++
+- Git
+- SQL
+- System Design
+- OOP
+- REST API
+- Testing
+- Docker
+
+Skills Found:
+- Algorithms
+- C
+- Communication
+- Data Structures
+- Java
+- JavaScript
+- Linux
+- Machine Learning
+- MySQL
+- Python
+
+Education:
+- Senior Year B.Tech Student +91 9911592327
+- Indian Institute of Technology Delhi http://www.cse.iitd.ernet.in/ ~cs1070185
+- Year Degree Institute Percentage/CGPA
+- 2007- BTech in Computer Science Indian Institute of Technology CGPA = 9.938/10
+- Present and Engineering Delhi Institute Rank 1
+
+Experience:
+- Research Intern atMicrosoft Research India, Bangalore in the Vision Graphics and Visualization
+
+Missing Sections:
+- Certifications
+
+Missing Keywords:
+- C++
+- Git
+- SQL
+- System Design
+- OOP
+- REST API
+- Testing
+- Docker
+
+Suggestions:
+- Mention relevant certifications if you have them to strengthen credibility.
+- Try incorporating important keywords such as C++, Git, SQL, System Design where they accurately reflect your work.

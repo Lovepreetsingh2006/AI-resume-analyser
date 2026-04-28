@@ -1,0 +1,432 @@
+AI Resume Analyzer - Project Information File
+
+Project Name:
+AI Resume Analyzer
+
+Project Type:
+Full-stack web application for resume analysis and tech job matching
+
+Project Goal:
+The goal of this project is to help users upload a PDF resume, extract its text, analyze its content, compare it against a selected tech job role, and generate actionable feedback. The application is designed to simulate an ATS-style resume review process with a more modern user experience and richer scoring logic.
+
+
+1. Core Idea
+
+This project analyzes resumes for technical roles such as Software Engineer, Frontend Developer, Backend Developer, Full Stack Developer, Data Scientist, Machine Learning Engineer, DevOps Engineer, QA Engineer, Data Analyst, and Cybersecurity Analyst.
+
+The system:
+- accepts a PDF resume from the user
+- extracts text from the PDF
+- identifies skills, education, and experience
+- checks if important sections are missing
+- compares resume content with a structured tech jobs dataset
+- calculates a resume score out of 100
+- suggests improvements
+- supports custom skills and custom keywords
+- generates a downloadable text report
+
+
+2. Tech Stack
+
+Backend:
+- Python
+- Flask
+
+Frontend:
+- HTML
+- CSS
+- JavaScript
+
+Libraries:
+- PyPDF2 for PDF text extraction
+- scikit-learn for TF-IDF similarity scoring
+- Werkzeug for secure file handling
+
+UI Additions:
+- Bootstrap Icons
+- Google Fonts
+
+
+3. Main Features
+
+A. Resume Upload
+- User uploads a PDF file
+- Only PDF files are allowed
+- File size limit is enforced in Flask
+
+B. Resume Text Extraction
+- Text is extracted from PDF pages using PyPDF2
+- The extracted content is normalized before analysis
+
+C. Resume Analysis
+- Detects skills from a large internal skill catalog
+- Extracts education details
+- Extracts experience details
+- Detects missing sections such as:
+  - Projects
+  - Skills
+  - Certifications
+
+D. Tech Role Matching
+- Matches resume content with a selected job role from a dataset
+- Separates:
+  - matched required skills
+  - missing required skills
+  - matched optional skills
+  - missing optional skills
+
+E. Resume Scoring
+- Generates a score out of 100
+- Score is based on:
+  - skills match
+  - completeness
+  - keyword coverage
+  - role similarity
+  - penalties for weak structure or missing content
+
+F. Suggestions Engine
+- Provides suggestions to improve resume quality
+- Examples:
+  - add missing core skills if relevant
+  - include projects section
+  - improve keyword alignment
+  - use stronger action verbs
+  - tailor resume more closely to role language
+
+G. Keyword Optimization
+- Highlights important missing keywords
+- Tracks keyword coverage percentage
+
+H. Custom Skills and Custom Keywords
+- User can add custom skills to check manually
+- User can add custom ATS keywords or phrases
+- These custom inputs are included in analysis and scoring
+
+I. Download Report
+- Generates a downloadable `.txt` report after analysis
+
+J. Modern UI
+- Responsive layout
+- Drag-and-drop upload area
+- Score gauge
+- Animated progress bar
+- Dark mode toggle
+- Cards for result sections
+- Clean spacing and polished styling
+
+
+4. Dataset Layer
+
+This project uses a structured local dataset file:
+data/tech_jobs_dataset.json
+
+The dataset contains multiple tech roles and role metadata.
+
+Each role contains:
+- category
+- market_signal
+- outlook_score
+- profile
+- must_have_skills
+- nice_to_have_skills
+- keywords
+- related_tools
+
+Current roles in the dataset:
+- Software Engineer
+- Frontend Developer
+- Backend Developer
+- Full Stack Developer
+- Data Scientist
+- Data Analyst
+- Machine Learning Engineer
+- DevOps Engineer
+- QA Engineer
+- Cybersecurity Analyst
+
+Purpose of the dataset:
+- make the analyzer more realistic
+- improve role matching quality
+- support richer scoring than a simple keyword list
+- separate required skills from optional skills
+
+
+5. Project Architecture
+
+Important files:
+
+Backend:
+- app.py
+
+Templates:
+- templates/index.html
+
+Frontend scripts:
+- static/js/app.js
+
+Frontend styles:
+- static/css/style.css
+
+Dataset:
+- data/tech_jobs_dataset.json
+
+Dependencies:
+- requirements.txt
+
+Run guide:
+- runstop.txt
+
+
+6. Backend Workflow
+
+Step 1:
+User uploads a PDF resume and selects a tech role.
+
+Step 2:
+The Flask backend saves the uploaded file temporarily.
+
+Step 3:
+The backend extracts text from the PDF using PyPDF2.
+
+Step 4:
+The extracted text is analyzed:
+- normalize text
+- find skills
+- identify education and experience lines
+- detect sections
+- compare with role dataset
+- compute keyword coverage
+- compute similarity score
+
+Step 5:
+The backend generates:
+- score breakdown
+- matching skills
+- missing skills
+- suggestions
+- role overview
+- downloadable report
+
+Step 6:
+The uploaded PDF is deleted after processing.
+
+
+7. Frontend Workflow
+
+Homepage includes:
+- app title
+- upload card
+- role dropdown
+- custom skills textarea
+- custom keywords textarea
+- analyze button
+
+Results section includes:
+- overall score
+- animated score gauge
+- progress bar
+- score breakdown
+- matching skills
+- missing skills
+- keyword coverage
+- AI-assisted role similarity
+- category / market signal / outlook score
+- education and experience extraction
+- suggestions
+- missing sections
+- downloadable report button
+
+
+8. NLP / Matching Logic
+
+This project does not use a heavy deep learning NLP pipeline.
+Instead, it uses a practical hybrid approach:
+
+A. Rule-based text analysis
+- detect section headers
+- detect skills using a skill catalog
+- extract education and experience using pattern-based logic
+
+B. Alias-aware matching
+- common variants are mapped using regular-expression patterns
+- examples:
+  - js -> JavaScript
+  - sklearn -> Scikit-learn
+  - tf -> TensorFlow
+  - k8s -> Kubernetes
+  - iam -> Identity and Access Management
+
+C. Dataset-driven role intelligence
+- each role provides required skills, optional skills, keywords, and related tools
+
+D. ML-assisted similarity
+- uses TF-IDF vectorization from scikit-learn
+- compares resume text to a target role profile
+- produces a role-fit similarity percentage
+
+
+9. Scoring Logic
+
+The final score is out of 100.
+
+Breakdown:
+- Skills Match: 35 points
+  - required skills contribute more than optional skills
+- Completeness: 25 points
+  - based on presence of sections like education, experience, projects, skills, certifications
+- Keywords: 20 points
+  - based on role keywords and related tools found in the resume
+- Role Similarity: 20 points
+  - based on TF-IDF semantic similarity
+
+Possible penalties:
+- resume too short
+- missing important sections
+- too many keyword gaps
+
+
+10. Accuracy Improvements Added
+
+Compared to a very basic resume analyzer, this version is more accurate because:
+- it uses a structured role dataset instead of a tiny hardcoded skill list
+- it distinguishes core and optional skills
+- it supports custom skills and keywords
+- it uses alias-based pattern recognition
+- it includes TF-IDF similarity scoring
+- it includes role-specific keywords and related tools
+
+
+11. Routes
+
+Main Flask routes:
+
+GET /
+- renders homepage
+
+POST /analyze
+- accepts uploaded resume
+- performs analysis
+- returns JSON response with results
+
+GET /download-report/<report_id>
+- downloads generated text report
+
+
+12. Output Generated by the App
+
+The app returns:
+- overall score
+- score breakdown
+- role overview
+- matching skills
+- missing skills
+- extracted education
+- extracted experience
+- missing sections
+- keyword coverage
+- keyword gaps
+- related tools found
+- suggestions
+- downloadable report URL
+
+
+13. Error Handling
+
+The project handles:
+- missing file uploads
+- invalid file type
+- invalid role selection
+- empty or unreadable PDF content
+- internal processing exceptions
+
+
+14. Visual / UI Highlights
+
+To make the project look modern and impressive, the UI includes:
+- clean typography
+- glass-like hero panel
+- ambient gradient background
+- drag-and-drop upload experience
+- dark mode toggle
+- card-based dashboard
+- score gauge
+- animated progress bar
+- responsive design for desktop and mobile
+
+
+15. Why This Project Is Useful
+
+This project is useful for:
+- students improving resumes
+- job seekers targeting specific tech roles
+- internship applicants
+- recruiters or mentors doing quick resume reviews
+- learning full-stack AI-assisted application design
+
+
+16. Limitations
+
+Current limitations:
+- PDF extraction quality depends on how the PDF was created
+- scanned-image PDFs without selectable text may not work well
+- the project uses heuristic and TF-IDF methods, not a large language model
+- role scoring is only as strong as the current local dataset
+- report download is currently text-based, not PDF
+
+
+17. Possible Future Improvements
+
+Good future enhancements:
+- paste or upload a job description and auto-extract keywords
+- use spaCy or transformer-based NLP for deeper extraction
+- support DOCX resumes
+- generate PDF reports
+- admin panel for editing the tech jobs dataset
+- role-specific weighting for every skill
+- resume rewrite suggestions
+- charts and analytics for score comparison
+- recruiter mode for bulk resume screening
+
+
+18. How to Run
+
+Install dependencies:
+pip install -r requirements.txt
+
+Start:
+python app.py
+
+Open:
+http://127.0.0.1:5000/
+
+If Python version mismatch happens on this machine, use:
+"C:\Users\HP\AppData\Local\Programs\Python\Python312\python.exe" app.py
+
+
+19. How to Stop
+
+If running in terminal:
+Ctrl + C
+
+If running in background:
+Stop-Process -Id <PID> -Force
+
+See runstop.txt for detailed commands.
+
+
+20. Short Project Summary
+
+AI Resume Analyzer is a Flask-based web application that analyzes PDF resumes for multiple tech roles using a structured dataset, rule-based extraction, alias-aware skill detection, and TF-IDF similarity scoring. It provides resume scoring, missing skill detection, keyword optimization, improvement suggestions, and downloadable reports through a modern responsive UI.
+
+
+21. Best Use of This File
+
+This file is written so it can be directly given to another AI system to generate:
+- project report
+- synopsis
+- documentation
+- viva explanation
+- presentation content
+- resume project description
+- software engineering report
+
